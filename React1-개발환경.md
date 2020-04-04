@@ -27,6 +27,8 @@ Nodejs로 만들어진 프로그램을 설치해주는 **npm**을 먼저 설치�
     create-react-app -V
     설치된 버전을 확인할 수 있다.
 
+---
+
     React 공식 홈페이지의 문서에서는 아래의 명령어를 실행하라고 한다.
     npx create-react-app my-app
     cd my-app
@@ -37,7 +39,7 @@ create-react-app을 npm으로 global 하게 설치하면 사용하지 않는 패
 npx는 해당 패키지를 설치하여 실행하고, 이후에는 해키지를 삭제한다.<br>
 컴퓨터의 공간을 낭비하지 않고, 실행할 때 마다 npx로 설치하면 최신 버전의 패키지 앱을 사용할 수 있다.
 
-리액트 개발환경 설정
+### 리액트 개발환경 설정
 
     create-react-app hello-react
 
@@ -54,9 +56,10 @@ hello-react 폴더와 그 구성 파일들이 설치된 것을 확인할 수 있
 
 - hello-react 경로에서 실행하기 / 실습환경 구축
 
-    npm start / npm run start
+        npm start / npm run start
 
 localhost:3000 의 주소로 웹 브라우저에서 리액트 웹앱이 자동으로 열린다.<br>
 create-react-app 이 기본적으로 제공하는 샘플 어플리케이션이 구동된 것.
 
-React 종료 : 터미널에서 ctrl + C
+### React 종료
+터미널에서 ctrl + C
