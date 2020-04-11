@@ -8,7 +8,7 @@ state값을 subject title로 준다
 this.state.subject.title 문자열이 그대로 찍힌다.
 
 react에서는 props에는 문자열을 따옴표로 묶어주고<br>
-문자열이 아닌 자바 스크립트 코드로 실행되게 하고 싶으면 __중괄호__를 사용한다
+문자열이 아닌 자바 스크립트 코드로 실행되게 하고 싶으면 __중괄호__ 를 사용한다
 
 - this.state로 초기화한 title 값인 'WEB' 이 찍힌다.
 
