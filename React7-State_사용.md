@@ -1,6 +1,32 @@
-### state 사용
+### State 사용
 
-state값을 subject title로 준다
+- state 값 초기화
+
+        constructer(props){
+        super(props);
+        }
+
+어떤 컴포넌트가 실행될 때 render라는 함수보다 먼저 실행되면서<br>
+컴포넌트를 초기화하고 싶은 코드는 constructer(){} 안에 작성한다
+
+컴포넌트를 실행될 때 constructer 함수가 있다면 제일 먼저 실행돼서 초기화 한다
+
+- 초기화가 끝나면 값을 세팅한다
+
+        this.state={} state 값 초기화
+
+- subject 값을 state화 시킨다.
+
+    - state 만들기
+
+            constructer(props){
+                super(props);
+                this.state={
+                subject:{title:'WEB', sub:'World Wide Web!'}
+                }
+            }
+
+만든 state값을 subject title로 준다
 
     <Subject title="this.state.subject.title"></Subject>
 
